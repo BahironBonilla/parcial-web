@@ -1,0 +1,49 @@
+* {
+
+    margin: 2;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#p-mensaje-error {
+    border: 2px solid red;
+    height: 20px;
+    padding: 20px;
+
+}
+
+#p-mensaje-confirmacion {
+    border: 2px solid green;
+    height: 20px;
+    padding: 20px;
+}
+
+.form-register {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(199, 241, 238);
+    padding: 10px;
+    font-family: cursive;
+    border-radius: 10px;
+    
+}
+
+.controls {
+
+    font-family: cursive;
+    margin: 3px;
+    width: 100%;
+    display:inline;
+
+}
